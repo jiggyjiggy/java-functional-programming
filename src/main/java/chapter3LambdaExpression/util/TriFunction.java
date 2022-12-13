@@ -1,4 +1,4 @@
-package chapter3.util;
+package chapter3LambdaExpression.util;
 
 @FunctionalInterface
 public interface TriFunction<T, U, V, R> {

@@ -1,8 +1,8 @@
-package chapter3;
+package chapter3LambdaExpression;
 
-import chapter3.util.TriFunction;
+import chapter3LambdaExpression.util.TriFunction;
 
-public class Section4 {
+public class Section4FunctionalInterface {
     public static void main(String[] args) {
         TriFunction<Integer, Integer, Integer, Integer> add = (x, y, z) -> x + y + z;
 

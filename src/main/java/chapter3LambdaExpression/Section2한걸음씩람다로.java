@@ -1,8 +1,8 @@
-package chapter3;
+package chapter3LambdaExpression;
 
 import java.util.function.Function;
 
-public class Section2 {
+public class Section2한걸음씩람다로 {
     public static void main(String[] args) {
 //        Function<Integer, Integer> myAdder = (Integer x) -> {
 //            return x + 10;

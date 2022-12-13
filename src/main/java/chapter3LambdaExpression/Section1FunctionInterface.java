@@ -1,10 +1,10 @@
-package chapter3;
+package chapter3LambdaExpression;
 
-import chapter3.util.Adder;
+import chapter3LambdaExpression.util.Adder;
 
 import java.util.function.Function;
 
-public class Section1 {
+public class Section1FunctionInterface {
     public static void main(String[] args) {
         Function<Integer, Integer> myAdder = new Adder();
         int result = myAdder.apply(5);
